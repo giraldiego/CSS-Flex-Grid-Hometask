@@ -94,7 +94,6 @@ header a {
 }
 
 main {
-
   /* display: none;  */
   height: 700px;
   position: relative;
@@ -165,6 +164,21 @@ main {
   flex-shrink: 0;
 }
 
+#btn-readmore {
+  border-radius: 18px;
+    margin-top: 20px;
+    padding: 5px 17px;
+    background: #55C2D8;
+    border: none;
+    font-family: 'Oswald';
+    font-size: 14px;
+    line-height: 26px;
+    text-align: center;
+    letter-spacing: 0.1em;
+    color: #FFFFFF;
+    text-transform: uppercase;
+}
+
 .learn-more {
   /* display: none; */
 
@@ -189,6 +203,25 @@ main {
   transform: translate(-50%, -50%);
   text-align: center;
 }
+
+.btn-play {
+
+    height: 150px;
+    width: 150px;
+    border: none;
+    border-radius: 50%;
+    background-color: #39C2D7;
+}
+
+.play-icon{
+    position: relative;
+    font-size: 70px;
+    color: white;
+    width: 55px;
+    height: 70px;
+    left: 7px;
+}
+
 
 footer {
   height: 170px;
@@ -224,5 +257,5 @@ footer {
 }
 
 #copyright {
-  align-self:flex-end;
+  align-self: flex-end;
 }
