@@ -9,6 +9,7 @@ header {
   top: 0;
 
   display: flex;
+  display: none; /* hide element */
   gap: 20px;
   justify-content: space-evenly;
   align-items: center;
@@ -92,6 +93,8 @@ header a {
 }
 
 main {
+  display: none; /* hide element */
+
   height: 700px;
   position: relative;
   background: #eeeeee;
@@ -159,4 +162,47 @@ main {
 .main__content button {
   flex-grow: 0;
   flex-shrink: 0;
+}
+
+.learn-more {
+  display: none; /* hide element */
+
+  height: 666px;
+  background-image: url('../assets/learn-more_background.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+.learn-more__block {
+  /* border: 1px solid red; */
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+footer {
+  height: 170px;
+  background-color: #464547;
+  position: relative;
+}
+
+.footer__block {
+  /* border: 1px solid red; */
+  margin-left: 170px;
+  position: absolute;
+
+  text-align: left;
+
+  font-family: 'Source Sans Pro';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  /* or 119% */
+
+  color: rgba(255, 255, 255, 0.4);
 }
