@@ -9,8 +9,8 @@ header {
   width: 100%;
   top: 0;
 
+  /* display: none;  */
   display: flex;
-  display: none; /* hide element */
   gap: 20px;
   justify-content: space-evenly;
   align-items: center;
@@ -94,8 +94,8 @@ header a {
 }
 
 main {
-  display: none; /* hide element */
 
+  /* display: none;  */
   height: 700px;
   position: relative;
   background: #eeeeee;
@@ -166,13 +166,18 @@ main {
 }
 
 .learn-more {
-  display: none; /* hide element */
+  /* display: none; */
 
   height: 666px;
   background-image: url('../assets/learn-more_background.jpg');
   background-repeat: no-repeat;
   background-size: cover;
   position: relative;
+
+  font-family: 'Oswald';
+  font-style: normal;
+  text-align: center;
+  color: #ffffff;
 }
 
 .learn-more__block {
