@@ -136,13 +136,24 @@ main {
 #two-columns {
   display: flex;
   justify-content: space-evenly;
-  gap: 80px;
+  gap: 83px;
   /* align-items: center; */
   /* flex-wrap: wrap; */
 }
 
-#two-columns > * {
+#two-columns > p {
   /* height: 172px; */
+  min-height: 172px;
+  flex-basis: 408px;
+
+  font-family: 'Source Sans Pro';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 22px;
+  /* or 138% */
+
+  color: #666666;
 }
 
 .main__content button {
